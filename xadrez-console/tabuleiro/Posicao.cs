@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace tabuleiro
+﻿namespace tabuleiro
 {
     internal class Posicao
     {
@@ -9,7 +6,8 @@ namespace tabuleiro
         public int linha { get; set; }
         public int coluna { get; set; }
 
-        public Posicao(int l, int c) {
+        public Posicao(int l, int c)
+        {
             this.linha = l;
             this.coluna = c;
         }
