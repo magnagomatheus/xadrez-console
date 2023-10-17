@@ -30,7 +30,7 @@ namespace tabuleiro
         }
 
         public void colocarPeca(Peca p, Posicao pos) {
-            if (!existePeca(pos) {
+            if (!existePeca(pos)) {
                 pecas[pos.linha, pos.coluna] = p;
                 p.posicao = pos;
             }
